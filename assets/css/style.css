@@ -269,6 +269,17 @@ section {
     flex: 1;
 }
 
+.trainer-1 {
+    background-image: url("./assets\images\trainer-1.jpg");
+}
+
+.trainer-2 {
+    background-image: url("./assets/images/trainer-2.jpg");
+}
+
+.trainer-3 {
+    background-image: url("./assets/images/trainer-3.jpg");
+}
 .trainers {
     width: 100%;
     margin: 0 auto;
@@ -277,8 +288,9 @@ section {
     justify-content: space-around;
 }
 
-.trainer img {
+.trainer-img {
     width: 100%;
+    min-height: 300px;
 }
 
 .trainer-bio {
